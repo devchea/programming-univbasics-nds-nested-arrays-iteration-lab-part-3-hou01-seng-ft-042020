@@ -1,4 +1,16 @@
+require "pry"
 def join_nested_strings(src)
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
-end
+  i = 0
+  new_array = []
+  while i < src.length do
+    j = 0
+    while j < src[i].length do
+      if src[i][j] = ""
+        new_array << src
+      end
+    end
+
+    end
+  end
