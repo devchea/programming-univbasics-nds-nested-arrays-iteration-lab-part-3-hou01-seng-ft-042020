@@ -10,8 +10,8 @@ def join_nested_strings(src)
       if src[i][j].class = string
         new_array << src[i][j]
       end
-      j += 1  
+      j += 1
     end
-    new_array
+    i += 1
     end
   end
